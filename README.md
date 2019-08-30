@@ -1,1 +1,1 @@
-# jango
+# Django
