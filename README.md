@@ -14,3 +14,10 @@ python3.7 manage.py startapp myapp
 python3.7 manage.py migrate 
 deactivate
 ```
+
+```
+OpenCV
+python3.7 -m venv venv 
+source venv/bin/activate
+pip install opencv-python
+```
