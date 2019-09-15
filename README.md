@@ -14,3 +14,11 @@ python3.7 manage.py startapp myapp
 python3.7 manage.py migrate 
 deactivate
 ```
+
+```
+install docker docker-compose
+git clone
+cd compose/
+docker compose up
+
+```
