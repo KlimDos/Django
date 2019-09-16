@@ -43,7 +43,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bootstrap4',
+    'rest_framework',
     'dashboard'
+    #'onlygrow'
 ]
 
 MIDDLEWARE = [
@@ -82,12 +84,13 @@ WSGI_APPLICATION = 'onlygrow.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'HOST': 'db',
-        'PORT': 5432,
+        'ENGINE': 'djongo',
+        'NAME': 'onlygrow',
+        'USER': 'sasha',
+        'PASSWORD': 'Z106i9qF5A8fe11w',
+        'HOST': 'mongodb+srv://sasha:Z106i9qF5A8fe11w@cluster0-srkrs.gcp.mongodb.net/onlygrow',
     }
+  #  mongodb+srv://sasha:<password>@cluster0-srkrs.gcp.mongodb.net/test?retryWrites=true&w=majority
 }
 
 

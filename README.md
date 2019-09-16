@@ -20,5 +20,9 @@ install docker docker-compose
 git clone
 cd compose/
 docker compose up
+sudo docker-compose run web ./manage.py migrate
+
 
 ```
+https://www.youtube.com/watch?v=iKB_4HWKMCc
+mongodb+srv://sasha:<password>@cluster0-srkrs.gcp.mongodb.net/test?retryWrites=true&w=majority
